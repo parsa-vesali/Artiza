@@ -1,7 +1,7 @@
 import React from 'react'
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
-import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
+import Search from './Search';
 
 
 export default function TopBar() {
@@ -15,15 +15,11 @@ export default function TopBar() {
                     <p className="tracking-wider text-gray-500">با ما بهترین باشید</p>
                 </div>
 
-                <div className="relative w-[30rem] bg-gray-100 px-4 hover:shadow rounded-lg">
-                    <input type="text"
-                        className='outline-none border-non bg-zinc-100 w-full py-2 '
-                        placeholder='محصول مورد نظر خود را جست جو کنید' />
-                    <SearchRoundedIcon className='absolute left-1 top-2 text-zinc-300 cursor-pointer' />
-                </div>
+                {/* SEARCH INPUT */}
+                <Search />
             </div>
 
-            {/* SEARCH INPUT */}
+
 
 
 
