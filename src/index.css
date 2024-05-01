@@ -5,12 +5,12 @@
 @layer base {
     @font-face {
         font-family: 'Dana';
-        src: url('../public/fonts/Dana/woff2/DanaFaNum-Regular.woff2');
+        src: url('/fonts/Dana/woff2/DanaFaNum-Regular.woff2');
     }
 
     @font-face {
         font-family: 'Dana Bold';
-        src: url('../public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2');
+        src: url('/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2');
     }
 
     @font-face {
