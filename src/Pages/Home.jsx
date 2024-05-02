@@ -3,6 +3,7 @@ import TopBar from '../Components/TopBar'
 import NavBar from '../Components/NavBar'
 import Header from '../Components/Header'
 import Categoris from '../Components/Categoris'
+import Discount from '../Components/Discount'
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
             <NavBar />
             <Header />
             <Categoris />
+            <Discount />
         </>
     )
 }
