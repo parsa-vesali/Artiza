@@ -12,7 +12,6 @@ import 'swiper/css/pagination';
 // import required modules
 import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 
-
 export default function Header() {
     return (
         <div className='container mt-4 flex items-center justify-between gap-x-8'>
@@ -20,6 +19,7 @@ export default function Header() {
                 <Swiper
                     spaceBetween={30}
                     effect={'fade'}
+                    loop={true}
                     autoplay={{
                         delay: 2000,
                         disableOnInteraction: false,

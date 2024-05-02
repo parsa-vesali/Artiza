@@ -2,6 +2,8 @@ import React from 'react'
 import TopBar from '../Components/TopBar'
 import NavBar from '../Components/NavBar'
 import Header from '../Components/Header'
+import Categoris from '../Components/Categoris'
+
 
 export default function Home() {
     return (
@@ -9,6 +11,7 @@ export default function Home() {
             <TopBar />
             <NavBar />
             <Header />
+            <Categoris />
         </>
     )
 }

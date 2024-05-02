@@ -1,12 +1,5 @@
-export const searchItems = [
-    {
-        id: 1,
-        name: 'کیف'
-    },
-]
 
-
-export const Categories = [
+export const MenuCategories = [
     { id: 1, title: 'پیراهن' },
     { id: 2, title: 'شلوار' },
     { id: 3, title: 'تیشرت' },
@@ -50,4 +43,15 @@ export const Categories = [
             }
         ]
     }
+]
+
+export const Categories = [
+    { id: 1, title: 'پیراهن', img: './image/svg/tshirt.png' },
+    { id: 2, title: 'شلوار', img: './image/svg/trousers.png' },
+    { id: 3, title: 'کت و شلوار', img: './image/svg/suit.png' },
+    { id: 4, title: 'کفش رسمی', img: './image/svg/smart-shoe.png' },
+    { id: 5, title: 'کفش رسمی', img: './image/svg/running-shoe.png' },
+    { id: 6, title: 'سویشرت', img: './image/svg/hoodie.png' },
+    { id: 7, title: 'کت تک', img: './image/svg/lab-coat.png' },
+    { id: 8, title: 'اکسسوری', img: './image/svg/cap.png' },
 ]

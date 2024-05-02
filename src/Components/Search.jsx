@@ -3,7 +3,7 @@ import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import WhatshotOutlinedIcon from '@mui/icons-material/WhatshotOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import KeyboardArrowLeftOutlinedIcon from '@mui/icons-material/KeyboardArrowLeftOutlined';
-import { Categories } from "../Constant";
+import { MenuCategories } from "../Constant";
 
 
 
@@ -61,7 +61,7 @@ export default function Search() {
                             <ul className='mt-4 text-zinc-700 list-disc	 p-4 text-lg flex flex-col gap-y-2 '>
                                 {
                                     query ? (
-                                        Categories.filter(item => item.title.toLocaleLowerCase().includes(query)).map(item => (
+                                        MenuCategories.filter(item => item.title.toLocaleLowerCase().includes(query)).map(item => (
                                             <li key={item.id} className='cursor-pointer hover:text-zinc-900 transition-all'>
                                                 {item.title}
                                             </li>
