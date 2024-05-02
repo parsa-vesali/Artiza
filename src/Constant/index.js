@@ -23,6 +23,14 @@ export const Categories = [
             {
                 id: 1,
                 title: 'ساعت'
+            },
+            {
+                id: 2,
+                title: 'ساعت'
+            },
+            {
+                id: 3,
+                title: 'ساعت'
             }
         ]
     }
