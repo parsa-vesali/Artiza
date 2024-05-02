@@ -14,7 +14,7 @@ export default function ShopingCart() {
                 سبد خرید
             </button>
 
-            <div className="absolute left-0 px-5 duration-300  transition-all delay-100 ease-in-out  gap-y-2 w-[400px]  bg-white shadow-lg rounded-lg py-2 border-t-4 border-blue-500 opacity-0 invisible top-20  group-hover:opacity-100  group-hover:visible group-hover:top-12">
+            <div className="absolute left-0 px-5 py-5 duration-300  transition-all delay-100 ease-in-out gap-y-2 w-[400px]  bg-white shadow-lg rounded-lg border-t-4 border-blue-500 opacity-0 invisible top-20  group-hover:opacity-100  group-hover:visible group-hover:top-12">
                 <div className="flex items-center justify-between">
                     <p className='text-gray-400 text-xs'> 1 مورد</p>
                     <span className='text-xs text-blue-500 cursor-pointer'>
