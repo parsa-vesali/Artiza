@@ -37,7 +37,7 @@ export default function Search() {
                             className='absolute left-4 top-2 text-zinc-400 cursor-pointer'
                         />
 
-                        <div className="absolute w-full p-4  bg-gray-100 left-0 ring-0 rounded-b-lg border-t-2 border-t-blue-500 shadow-lg">
+                        <div className="absolute w-full p-4  z-50 bg-gray-100 left-0 ring-0 rounded-b-lg border-t-2 border-t-blue-500 shadow-lg">
                             <span className='flex items-center gap-x-2'>
                                 <WhatshotOutlinedIcon className='text-zinc-400 ' />
                                 <p>جستجوهای پرطرفدار</p>

@@ -15,7 +15,7 @@ export default function NavBar() {
                                     {item.title}
                                     <KeyboardArrowDownOutlinedIcon />
 
-                                    <div className='absolute child-hover:text-blue-500 transition-all duration-300 delay-75 ease-in-out flex flex-col gap-y-2 w-64 top-24 bg-white shadow-lg rounded-lg py-2 px-4 border-t-4 border-blue-500 opacity-0 group-hover:opacity-100 group-hover:top-10'>
+                                    <div className='absolute child-hover:text-blue-500 transition-all duration-300 delay-75 ease-in-out flex flex-col gap-y-2 w-64 top-24 bg-white shadow-lg rounded-lg py-2 px-4 border-t-4 border-blue-500 opacity-0  invisible group-hover:visible group-hover:opacity-100 group-hover:top-10'>
                                         <a href="#">ساعت</a>
                                         <a href="#">ساعت</a>
                                         <a href="#">ساعت</a>
@@ -32,13 +32,13 @@ export default function NavBar() {
                     ))
                 }
             </ul>
-            <div className="flex items-center gap-x-2">
-                <span className='h-10 w-10 rounded-full flex items-center justify-center text-gray-100 bg-zinc-700'>
-                    <PhoneOutlinedIcon />
-                </span>
-                <span className='font-Morabba cursor-pointer'>
+            <div className="flex items-center gap-x-2 group">
+                <span className='font-Morabba cursor-pointer text-sm group-hover:text-blue-500 transition-all ease-in-out'>
                     <p>092 883 1222</p>
                     <p>پشتیبانی مشتریان</p>
+                </span>
+                <span className='h-8 w-8 text-sm rounded-full flex items-center justify-center text-gray-100 bg-zinc-700 group-hover:bg-blue-500 transition-all ease-in-out'>
+                    <PhoneOutlinedIcon />
                 </span>
             </div>
         </div>
