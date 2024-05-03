@@ -55,3 +55,49 @@ export const Categories = [
     { id: 7, title: 'کت تک', img: './image/svg/lab-coat.png' },
     { id: 8, title: 'اکسسوری', img: './image/svg/cap.png' },
 ]
+
+
+export const Products = [
+    {
+        id: 1,
+        title: 'ساعت مچی عقربه ای والار کد LF2879',
+        mainPrice: 173_000,
+        price: 136_000,
+        srcImage: './image/products/p-1.jpg'
+    },
+    {
+        id: 2,
+        title: 'تیشرت استین کوتاه مردانه نوین نقش طرح BW5025',
+        mainPrice: 93_000,
+        price: 72_000,
+        srcImage: './image/products/p-2.jpg'
+    },
+    {
+        id: 3,
+        title: 'تیشرت استین کوتاه مردانه نوین نقش طرح BW5025',
+        mainPrice: 173_000,
+        price: 136_000,
+        srcImage: './image/products/p-3.jpg'
+    },
+    {
+        id: 4,
+        title: 'تیشرت استین کوتاه مردانه نوین نقش طرح BW5025',
+        mainPrice: 173_000,
+        price: 136_000,
+        srcImage: './image/products/p-4.jpg'
+    },
+    {
+        id: 5,
+        title: 'تیشرت استین کوتاه مردانه نوین نقش طرح BW5025',
+        mainPrice: 173_000,
+        price: 136_000,
+        srcImage: './image/products/p-5.jpg'
+    },
+    {
+        id: 6,
+        title: 'تیشرت استین کوتاه مردانه نوین نقش طرح BW5025',
+        mainPrice: 173_000,
+        price: 136_000,
+        srcImage: './image/products/p-5.jpg'
+    },
+]

@@ -4,6 +4,7 @@ import NavBar from '../Components/NavBar'
 import Header from '../Components/Header'
 import Categoris from '../Components/Categoris'
 import Discount from '../Components/Discount'
+import PupularProduct from '../Components/PupularProduct'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <Header />
             <Categoris />
             <Discount />
+            <PupularProduct />
         </>
     )
 }

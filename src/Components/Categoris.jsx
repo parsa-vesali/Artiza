@@ -6,7 +6,7 @@ export default function Categoris() {
         <div className='container flex items-center justify-between mt-8'>
             {
                 Categories.map(item => (
-                    <div key={item.id} className="w-32 h-32 shadow-lg p-4 flex flex-col gap-y-2 items-center justify-center  rounded-lg cursor-pointer hover:-translate-y-4 transition-all ease-in-out delay-75">
+                    <div key={item.id} className="w-32 h-32 shadow-lg p-4 flex flex-col gap-y-2 items-center justify-center  rounded-lg cursor-pointer hover:bg-zinc-300 hover:-translate-y-4 transition-all ease-in-out delay-75">
                         <img className='w-16 h-16' src={item.img} alt="" />
                         <p className='text-lg'>{item.title}</p>
                     </div>
